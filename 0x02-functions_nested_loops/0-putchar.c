@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry point
+ * main - check the code.
  *
- * Return: Always 0 (success)
+ * Return: Always 0.
  */
 int main(void)
 {
 	char str[] = "_putchar";
 
-	printf("%s", str);
+	putchar("%s", str);
 	{
 		putchar('\n');
 	}
