@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - alphabet
- * @c: int
- * Return: Always (0)
+ * _isalpha - something
+ * @c: hi
+ * Return: Always 0.
  */
 int _isalpha(int c)
 {
