@@ -2,13 +2,13 @@
 /**
  * main - Entry point
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int x;
 
-	for (x = 0; x <= 10; x++)
+	for (x = 0; x < 10; x++)
 
 	{
 		printf("%d", x);
@@ -17,5 +17,5 @@ int main(void)
 		printf("\n");
 	}
 
-	return (0);
+return (0);
 }
