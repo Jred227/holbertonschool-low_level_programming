@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * sign - something
- *
+ * print_sign - yes
+ * @n: yes
  * Return: Always 0.
  */
 int print_sign(int n);
 {
-if (n < 0)
+if (n > 0)
 {
 _putchar('+');
 return (1);
