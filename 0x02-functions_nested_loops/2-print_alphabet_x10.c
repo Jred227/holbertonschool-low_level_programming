@@ -1,9 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - check the code.
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-int main (void)
+int main(void)
 {
+	int x;
 
+	for (x = 'a'; x <= 'z'; x++);
+	{
+		putchar(x);
+	}
+	{
+		putchar('\n');
+	}
+return (0);
+}

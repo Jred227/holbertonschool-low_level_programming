@@ -1,8 +1,8 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - check the code.
+ * main - Entry point
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
