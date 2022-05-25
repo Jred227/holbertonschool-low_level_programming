@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
  * print_last_digit - last_digit
  * @j: j is the generated number
  * Return: Always j.
  */
-int print_last_digit(j)
+int print_last_digit(int j)
 {
 j = j % 10;
 if (j < 0)
